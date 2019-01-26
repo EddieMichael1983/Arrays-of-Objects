@@ -11,7 +11,6 @@ var movies = [
 
 for (var i = 0; i < movies.length; i++) {
    
-
 fill(84, 140, 209);
 textAlign(CENTER, CENTER);
 textSize(20);
