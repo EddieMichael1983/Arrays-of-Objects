@@ -1,0 +1,21 @@
+var movies = [
+    {
+        title: "The French Connection",
+        review: "New York Breeds Tough Cops!"
+    },
+    {
+        title: "To Live and Die in L.A.",
+        review: "Friedken's Finest Hour!"
+    }
+];
+
+for (var i = 0; i < movies.length; i++) {
+    var movie = movies[i];
+
+fill(84, 140, 209);
+textAlign(CENTER, CENTER);
+textSize(20);
+text(movies[i].title, 200, 113*i+130);
+text(movies[i].review, 200, 113*i+160);
+
+}
